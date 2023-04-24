@@ -23,6 +23,5 @@ CSV do |output|
 
 
     output << [date, orderId, orderSub, orderTax, total]
-    #puts "#{date}, #{orderId}, #{orderSub}, #{orderTax}, #{total}"
   end
 end
